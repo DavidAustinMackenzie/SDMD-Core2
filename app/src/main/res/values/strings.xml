@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Core2</string>
+    <string name="app_name">Core2 Race Tracks</string>
+    <string name="albert_park">Albert Park</string>
+    <string name="abu_dhabi">Abu Dhabi</string>
+    <string name="monaco">Monaco</string>
+    <string name="monza">Monza </string>
 </resources>
