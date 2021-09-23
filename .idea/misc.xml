@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/OneDrive - Swinburne University/UNI/Software_For_Mobile_Devices/AndroidStudioProjects/Core2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/OneDrive - Swinburne University/UNI/Software_For_Mobile_Devices/AndroidStudioProjects/Core2/app/src/main/res/layout/activity_abu_dhabi.xml" value="0.67" />
+        <entry key="..\:/OneDrive - Swinburne University/UNI/Software_For_Mobile_Devices/AndroidStudioProjects/Core2/app/src/main/res/layout/activity_albert_park.xml" value="0.5734375" />
+        <entry key="..\:/OneDrive - Swinburne University/UNI/Software_For_Mobile_Devices/AndroidStudioProjects/Core2/app/src/main/res/layout/activity_main.xml" value="0.43425076452599387" />
+        <entry key="..\:/OneDrive - Swinburne University/UNI/Software_For_Mobile_Devices/AndroidStudioProjects/Core2/app/src/main/res/layout/activity_monaco.xml" value="0.5734375" />
+        <entry key="..\:/OneDrive - Swinburne University/UNI/Software_For_Mobile_Devices/AndroidStudioProjects/Core2/app/src/main/res/layout/activity_monza.xml" value="0.5734375" />
       </map>
     </option>
   </component>

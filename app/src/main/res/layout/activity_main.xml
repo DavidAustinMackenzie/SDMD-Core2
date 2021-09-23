@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="132dp"
         android:layout_marginTop="36dp"
-        android:text="@string/monza"
+        android:text="@string/lbl_monza"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toEndOf="@+id/lblMonaco"
         app:layout_constraintTop_toBottomOf="@+id/imgViewMonza" />
 
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginTop="36dp"
-        android:text="@string/monaco"
+        android:text="@string/lbl_monaco"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgViewMonaco" />
 
@@ -32,7 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="112dp"
         android:layout_marginTop="36dp"
-        android:text="@string/albert_park"
+        android:text="@string/lbl_albert_park"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toEndOf="@+id/lblAbuDhabi"
         app:layout_constraintTop_toBottomOf="@+id/imgViewAlbertPark" />
 
@@ -40,9 +43,9 @@
         android:id="@+id/txtAlbertPark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
+        android:layout_marginStart="176dp"
         android:layout_marginTop="12dp"
-        android:text="TextView"
+        android:text="@string/txt_albert_park"
         app:layout_constraintStart_toEndOf="@+id/txtAbuDhabi"
         app:layout_constraintTop_toBottomOf="@+id/lblAlbertPark" />
 
@@ -52,6 +55,7 @@
         android:layout_height="123dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="188dp"
+        android:contentDescription="@string/desc_monza"
         app:layout_constraintStart_toEndOf="@+id/imgViewMonaco"
         app:layout_constraintTop_toBottomOf="@+id/imgViewAlbertPark"
         app:srcCompat="@drawable/monza" />
@@ -62,6 +66,7 @@
         android:layout_height="123dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="188dp"
+        android:contentDescription="@string/desc_monaco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgViewAbuDhabi"
         app:srcCompat="@drawable/monaco" />
@@ -72,6 +77,7 @@
         android:layout_height="135dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
+        android:contentDescription="@string/desc_albert_park"
         app:layout_constraintStart_toEndOf="@+id/imgViewAbuDhabi"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/albert_park" />
@@ -82,6 +88,7 @@
         android:layout_height="134dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="80dp"
+        android:contentDescription="@string/desc_abu_dhabi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/abu_dhabi" />
@@ -92,7 +99,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginTop="36dp"
-        android:text="@string/abu_dhabi"
+        android:text="@string/lbl_abu_dhabi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgViewAbuDhabi" />
 
@@ -100,9 +108,9 @@
         android:id="@+id/txtAbuDhabi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="92dp"
         android:layout_marginTop="12dp"
-        android:text="TextView"
+        android:text="@string/txt_abu_dhabi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblAbuDhabi" />
 
@@ -110,9 +118,9 @@
         android:id="@+id/txtMonaco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="92dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="@string/txt_monaco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblMonaco" />
 
@@ -120,9 +128,9 @@
         android:id="@+id/txtMonza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
+        android:layout_marginStart="168dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="@string/txt_monza"
         app:layout_constraintStart_toEndOf="@+id/txtMonaco"
         app:layout_constraintTop_toBottomOf="@+id/lblMonza" />
 </androidx.constraintlayout.widget.ConstraintLayout>

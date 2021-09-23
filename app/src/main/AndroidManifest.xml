@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Core2">
         <activity
+            android:name=".MonzaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MonacoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AlbertParkActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AbuDhabiActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
