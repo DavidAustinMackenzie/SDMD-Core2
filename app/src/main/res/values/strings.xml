@@ -1,27 +1,3 @@
 <resources>
     <string name="app_name">Core2 Race Tracks</string>
-    <string name="lbl_albert_park">Albert Park</string>
-    <string name="lbl_abu_dhabi">Abu Dhabi</string>
-    <string name="lbl_monaco">Monaco</string>
-    <string name="lbl_monza">Monza </string>
-    <string name="txt_albert_park">0</string>
-    <string name="txt_abu_dhabi">0</string>
-    <string name="txt_monaco">0</string>
-    <string name="txt_monza">0</string>
-    <string name="desc_abu_dhabi">The Abu Dhabi GP</string>
-    <string name="desc_albert_park">The Albert Park GP</string>
-    <string name="desc_monaco">The Monaco GP</string>
-    <string name="desc_monza">The Monza GP</string>
-    <string name="country_abu_dhabi">Abu Dhabi</string>
-    <string name="location_abu_dhabi">Yas Marina Circuit</string>
-    <string name="date_abu_dhabi">15/11/2018</string>
-    <string name="country_albert_park">Australia</string>
-    <string name="location_albert_park">Albert Park Circuit</string>
-    <string name="date_albert_park">12/03/2019</string>
-    <string name="country_monaco">Monaco</string>
-    <string name="location_monaco">Monte Carlo Circuit</string>
-    <string name="date_monaco">03/07/2015</string>
-    <string name="country_monza">Italy</string>
-    <string name="location_monza">Monza Circuit</string>
-    <string name="date_monza">12/06/2017</string>
 </resources>

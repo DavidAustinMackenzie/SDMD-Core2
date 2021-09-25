@@ -4,56 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AlbertParkActivity">
+    tools:context=".DetailActivity">
 
     <ImageView
-        android:id="@+id/imgAlbertPark"
+        android:id="@+id/imgViewTrack"
         android:layout_width="409dp"
-        android:layout_height="254dp"
-        android:contentDescription="@string/desc_abu_dhabi"
+        android:layout_height="209dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/albert_park" />
+        app:srcCompat="@drawable/abu_dhabi" />
 
     <TextView
-        android:id="@+id/txtCountryAustralia"
+        android:id="@+id/txtCountry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="@string/country_albert_park"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgAlbertPark" />
+        app:layout_constraintTop_toBottomOf="@+id/imgViewTrack"
+        style="@style/RedBackGround"/>
 
     <TextView
-        android:id="@+id/txtLocationMelbourne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/location_albert_park"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtCountryAustralia" />
-
-    <TextView
-        android:id="@+id/txtDateAlbertPark"
+        android:id="@+id/txtLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/date_albert_park"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ratAlbertPark" />
+        app:layout_constraintTop_toBottomOf="@+id/txtCountry"
+        style="@style/GreenBackground" />
 
-    <RatingBar
-        android:id="@+id/ratAlbertPark"
+    <TextView
+        android:id="@+id/txtDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtLocationMelbourne"
+        app:layout_constraintTop_toBottomOf="@+id/ratTrack"
+        style="@style/BlueBackGround"/>
+
+    <RatingBar
+        android:id="@+id/ratTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLocation"
         tools:ignore="SpeakableTextPresentCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
