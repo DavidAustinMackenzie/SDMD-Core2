@@ -57,6 +57,12 @@ class MainActivity : AppCompatActivity() {
         txtRatingMonaco.text = monacoLocation.rating.toString()
         txtRatingMonza.text = monzaLocation.rating.toString()
 
+        //Set image values
+        imgAbuDhabi.setImageResource(abuDhabiLocation.picture)
+        imgAlbertPark.setImageResource(albertParkLocation.picture)
+        imgMonaco.setImageResource(monacoLocation.picture)
+        imgMonza.setImageResource(monzaLocation.picture)
+
         //Setup onClick listeners for image views
         imgAbuDhabi.setOnClickListener{
             val intent = Intent(this,DetailActivity::class.java)
